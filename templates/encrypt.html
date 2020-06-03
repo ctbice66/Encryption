@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+
+<body>
+
+<form id='form' class="container-inner" method="post" action="/encrypt" enctype="multipart/form-data">
+
+<div class="container-outer">
+
+<input class="file-button" name="file" type="file" required>
+
+<input name="phrase" type="password" minlength="16" placeholder="Passphrase" required>
+
+<input class="encdec-button" type="submit" value="Encrypt">
+
+<a class="home-links" href="/">Home</a>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

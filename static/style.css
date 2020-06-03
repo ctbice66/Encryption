@@ -1,0 +1,94 @@
+html {
+	height: 100%;	
+	width: 100%;
+}
+
+body {
+	background-image: radial-gradient(circle, #25274D, #464866);
+	height: 100%;	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#status {
+	width: 100%;
+	height: 10%;
+	background-color: #25274D;
+	margin: 1%;
+}
+
+#bar {
+	width: 0%;
+	height: 100%;
+	background-color: white;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 60%;
+}
+
+.container-outer {
+	height: 75%;
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-inner {
+	width: 25%;
+	height: 50%;
+	margin: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-label {
+	padding: 2%;
+	margin: 2%;
+	color: white;
+	font-size: 48px;
+}
+
+.encdec-button {
+	border: solid 2px #464866;
+	border-radius: 50%;
+	padding: 2%;
+	margin: 2%;
+	width: 40%;
+	text-align: center;
+	color: #464866;
+	background: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.file-button {
+	padding: 2%;
+	margin: 2%;
+	width: 50%;
+	color: white;
+	font-size: 14px;
+}
+
+.home-links{
+	border: solid 2px #464866;
+	border-radius: 45%;
+	padding: 2%;
+	margin: 2%;
+	width: 33%;
+	text-align: center;
+	color: #464866;
+	background: white;
+	text-decoration: none;
+	font-size: 16px;
+}

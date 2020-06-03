@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="/static/style.css">
+
+<script>
+window.addEventListener('onpopstate', (event) => {
+	window.location.replace("/cleanup/{{ file }}");
+});
+</script>
+
+<body>
+
+<div class="container-outer">
+
+<div class="container-inner">
+
+<a class="home-links" href="/download/{{ file }}">Download</a>
+
+<a class="home-links" href="/cleanup/{{ file }}">Home</a>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
